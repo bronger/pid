@@ -101,7 +101,7 @@ class AirBody:
 
 
 air_body = AirBody()
-pid = PIDController(14, 230, lambda: t, mode="PID")
+pid = PIDController(14, 230, lambda: t)
 pid.desired_value = 1
 
 t = 0
